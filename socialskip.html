@@ -7,11 +7,6 @@
  -->
 <head>
     <title>SocialSkip for Chrome</title>
-    <style>
-        body {
-            background-color: #292929
-        }
-    </style>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -19,9 +14,19 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
   <body>
-    <h1>SocialSkip</h1>
-    <button id="btn" >Get Experiment</button>
-    <input id="videoid">
+  <style>
+        body {
+            background-color: #292929;
+            color:white;
+            font-size:15pt;
+        }
+        input{color:black;}
+        h1{text-align: center;}
+        h2{font-size: 80%;}
+    </style>
+    <h1><img src="./images/cloud.png" width="80px"><br>SocialSkip</h1>
+    <button class="btn btn-default" id="btn" >Get Experiment</button>
+    <input id="videoid" class="text">
     <div id="experiment"></div>
     <script src="socialskip.js">
       

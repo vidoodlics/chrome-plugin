@@ -1,8 +1,6 @@
 document.getElementById('btn').addEventListener("click", makeExperiment)
 
-console.log("Added.")
-
-function makeExperiment(){
+function makeExperiment() {
         var videoId = document.getElementById("videoid").value
         console.log(videoId)
         document.getElementById("experiment").innerHTML = '\
